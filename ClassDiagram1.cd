@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Interface2.Main">
+    <Position X="20.75" Y="4.75" Width="2.5" />
+    <Members>
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="listBox1" Hidden="true" />
+      <Field Name="menuStrip1" Hidden="true" />
+      <Field Name="pictureBox1" Hidden="true" />
+      <Field Name="RefreshPoint" Hidden="true" />
+      <Field Name="SaveProjectButton" Hidden="true" />
+      <Field Name="StopGenAlgorithm" Hidden="true" />
+      <Field Name="tableLayoutPanel1" Hidden="true" />
+      <Field Name="tableLayoutPanel2" Hidden="true" />
+      <Field Name="tableLayoutPanel3" Hidden="true" />
+      <Field Name="toolStrip1" Hidden="true" />
+      <Field Name="toolStrip2" Hidden="true" />
+      <Field Name="toolStripLabel1" Hidden="true" />
+      <Field Name="toolStripLabel10" Hidden="true" />
+      <Field Name="toolStripLabel11" Hidden="true" />
+      <Field Name="toolStripLabel2" Hidden="true" />
+      <Field Name="toolStripLabel3" Hidden="true" />
+      <Field Name="toolStripLabel4" Hidden="true" />
+      <Field Name="toolStripLabel5" Hidden="true" />
+      <Field Name="toolStripLabel6" Hidden="true" />
+      <Field Name="toolStripLabel7" Hidden="true" />
+      <Field Name="toolStripLabel8" Hidden="true" />
+      <Field Name="toolStripLabel9" Hidden="true" />
+      <Field Name="toolStripProgressBar2" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="Interface2.Main.PointDistance" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Main.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="Interface2.Main.AccessPoint" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Main.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="Interface2.Main.Chromosome" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Main.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>EVkYAAUYDCkAANQiAHGkYAwnBUYaAAJJiQUAC4JaIKI=</HashCode>
+      <FileName>Main.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Interface2.Launch">
+    <Position X="18.5" Y="8.25" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="Interface2.Launch.FormBoundsColors" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Launch.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAIgLAAACAAIABAACLFAAACIEABAAQAACAAAACQCAA=</HashCode>
+      <FileName>Launch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Interface2.InputParameters">
+    <Position X="26.25" Y="9" Width="2" />
+    <Members>
+      <Field Name="button1" Hidden="true" />
+      <Field Name="button2" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+      <Field Name="label5" Hidden="true" />
+      <Field Name="label6" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="s" Hidden="true" />
+      <Field Name="textBox1" Hidden="true" />
+      <Field Name="textBox2" Hidden="true" />
+      <Field Name="textBox3" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="Interface2.InputParameters.RoomDimensionsEventHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>InputParameters.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ACAABAAABCAABBAAAACACEBTAEAYAAACEIBAAQACIAU=</HashCode>
+      <FileName>InputParameters.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Interface2.InfoPoints">
+    <Position X="21.75" Y="14.25" Width="1.5" />
+    <Members>
+      <Field Name="components" Hidden="true" />
+      <Field Name="dataGridView1" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAQAAAAAACAAAACAAgAAAAAAAAKAQAAAAA=</HashCode>
+      <FileName>InfoPoints.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Interface2.InfoLocation">
+    <Position X="18.25" Y="14.25" Width="1.5" />
+    <Members>
+      <Field Name="components" Hidden="true" />
+      <Field Name="dataGridView1" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAQAAAAAACAAAACAAgAAAAQAAACAQAAAAA=</HashCode>
+      <FileName>InfoLocation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Interface2.InfoEquipments">
+    <Position X="20" Y="14.25" Width="1.5" />
+    <Members>
+      <Field Name="components" Hidden="true" />
+      <Field Name="dataGridView1" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAYAAAAAACAAAACAAgAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>InfoEquipments.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Interface2.AlgorithmParameters">
+    <Position X="23.75" Y="9" Width="2" />
+    <Members>
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+      <Field Name="label5" Hidden="true" />
+      <Field Name="label6" Hidden="true" />
+      <Field Name="label7" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="textBox1" Hidden="true" />
+      <Field Name="textBox2" Hidden="true" />
+      <Field Name="textBox3" Hidden="true" />
+      <Field Name="textBox4" Hidden="true" />
+      <Field Name="toolStrip1" Hidden="true" />
+      <Field Name="toolStripButton1" Hidden="true" />
+      <Field Name="toolStripButton2" Hidden="true" />
+      <Field Name="toolStripButton3" Hidden="true" />
+      <Field Name="toolStripLabel1" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>ACAAAAAQACAAABYAoEGASFhTIAAAAAACsABAAYgBQAE=</HashCode>
+      <FileName>AlgorithmParameters.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Interface2.CoordinatesAccessPoints">
+    <Position X="16.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAACAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CoordinatesAccessPoints.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Interface2.NetEquipments">
+    <Position X="22.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAgAAEAAAAAAQACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NetEquipments.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Interface2.OpenedProjectInfo">
+    <Position X="16.5" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAACA=</HashCode>
+      <FileName>OpenedProjectInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Interface2.OpenProjectForm">
+    <Position X="16.5" Y="6.75" Width="1.5" />
+    <Members>
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="panel" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAABAAAAACAAAIAAACCAAAACAAAQAAAAACAAAQAAAAA=</HashCode>
+      <FileName>OpenProjectForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Interface2.PlanRoom">
+    <Position X="18.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAACEAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PlanRoom.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Interface2.PointStorage">
+    <Position X="26.5" Y="4.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAIgCgAAAQgAAAAAAAAAAAAAAAAAAAAAAAAABAEAA=</HashCode>
+      <FileName>PointStorage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Interface2.Project">
+    <Position X="18.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAQAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Project.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Interface2.SelectEquipment">
+    <Position X="23.75" Y="14" Width="1.5" />
+    <Members>
+      <Field Name="codeeloButton1" Hidden="true" />
+      <Field Name="codeeloButton2" Hidden="true" />
+      <Field Name="codeeloButton4" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="listBox1" Hidden="true" />
+      <Field Name="listBox2" Hidden="true" />
+      <Field Name="listBox3" Hidden="true" />
+      <Field Name="listBox4" Hidden="true" />
+      <Field Name="tableLayoutPanel1" Hidden="true" />
+      <Field Name="tableLayoutPanel2" Hidden="true" />
+      <Field Name="tableLayoutPanel3" Hidden="true" />
+      <Field Name="tableLayoutPanel4" Hidden="true" />
+      <Field Name="tableLayoutPanel5" Hidden="true" />
+      <Field Name="tableLayoutPanel6" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAgBAgEQCCAAABABAAGAAAACgEAQAAIAgGAAQCAkACA=</HashCode>
+      <FileName>SelectEquipment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Interface2.UseNetEquipments">
+    <Position X="20.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAQAIAAAAAABAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UseNetEquipments.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Interface2.GetPoints">
+    <Position X="23.75" Y="4.75" Width="2" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="Interface2.GetPoints.PointsEventHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>GetPoints.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AQAAIAEQACAEABAAADCAAEgDAAAYCEAAhgAAAQBAQKI=</HashCode>
+      <FileName>GetPoints.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
